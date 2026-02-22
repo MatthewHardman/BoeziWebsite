@@ -1,0 +1,39 @@
+﻿Plusdesigners.com
+
+
+Contact button / mailto link with alias
+
+
+This is a cool website that lets you embed CAD files into the web https://sketchfab.com/ 
+
+
+* Home page
+   * Hero image with Logo overlay
+      * Picture of John or product?
+   * Headline - We developing products from idea to market for adventurers, athletes & builders
+   * Image(s) with text overlay for Adventurers
+      * Link to Adventurers page
+   * Image(s) with text overlay for Athletes
+      * Link to athletes page
+   * Image(s) with text overlay for Builders
+      * Link to builders page
+   * Call to action - Contact John
+   * About section - Summary of About page that has sections
+      * Link to John’s Background
+      * Link to more about the business model, values, etc.
+      * Link to proven process
+* Adventurers page - Tailored colors, images, featured work samples
+   * Call to action
+* Athletes page - Tailored colors, images, featured work samples
+   * Call to action
+* Builders page - Tailored colors, images, featured work samples
+   * Call to action
+* About page
+   * About John 
+   * About the team/network
+   * About the business and services
+      *  what we do/deliver, types of clients?, types projects? Pricing strategy, mission, values, etc. etc.
+   * Infographic about “proven process “ 
+* Full portfolio grid page?
+   * Click on thumb nail to expand for the story of each product/project - similar to johnboezi.com
+   * Include non-core items here like medtech
