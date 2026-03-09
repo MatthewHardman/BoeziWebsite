@@ -246,6 +246,35 @@ function initThemeSwitcher() {
 }
 
 /* ============================================================================
+   Portfolio Filter Buttons
+   ========================================================================== */
+
+function initPortfolioFilters() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+  if (!filterBtns.length || !portfolioItems.length) return;
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      // Update active button
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const filter = this.getAttribute('data-filter');
+
+      portfolioItems.forEach(item => {
+        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+}
+
+/* ============================================================================
    Initialize All Functions on DOM Ready
    ========================================================================== */
 
@@ -254,6 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initFlipCards();
   initHeroLinks();
   initPortfolioModal();
+  initPortfolioFilters();
   initSmoothScroll();
   initScrollAnimations();
   initThemeSwitcher();
